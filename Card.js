@@ -11,7 +11,7 @@ export default function Card(props) {
   const [size, setSize] = useState("")
   const priceRef = useRef();
   // const [btnEnable, setBtnEnable] = useState(false);
-  // let totval = 0
+  // let totval = 0  
   // let price = Object.values(options).map((value) => {
   //   return parseInt(value, 10);
   // });
