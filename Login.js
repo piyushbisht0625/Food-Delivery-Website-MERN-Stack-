@@ -10,7 +10,7 @@ const [credentials, setcredentials] = useState({ email: "", password: "" })
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(JSON.stringify({ name: credentials.name, email: credentials.email, password: credentials.password, location: credentials.geolocation }));
-
+ 
 
     const response = await fetch("http://localhost:5000/api/loginuser", {
       method: 'POST',
