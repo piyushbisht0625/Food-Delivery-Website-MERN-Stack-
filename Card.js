@@ -1,6 +1,6 @@
 
 import React, { useState, useRef, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom' 
 import { useDispatchCart, useCart } from './ContextReducer'
 // import { Dropdown, DropdownButton } from 'react-bootstrap';
 export default function Card(props) {
